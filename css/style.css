@@ -118,7 +118,7 @@ header .container .col-md-7 button:hover{
 .cover{
     width: 100%;
     height:70vmin;
-    background: url(/assets/client.jpg);
+    background: url(../assets/client.jpg);
     background-position: -15rem -19rem;
     background-size: 150%;
     position: relative;
