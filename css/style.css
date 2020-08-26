@@ -34,11 +34,9 @@ header .nav-item{
 header .navbar-brand{
     padding-left: 8rem;
 }
-header .navbar-brand:hover{
-    color: #F9DD32;
-}
-header .nav-link:hover{
-    color: #F9DD32;
+header .navbar-brand img{
+    height: inherit;
+    width: 12rem;
 }
 header .row .col-md-7{
     padding: 20vmin 1vmin;
@@ -300,6 +298,11 @@ footer ul li i{
    
 }
 @media only screen and (max-width:425px){
+    header .navbar-brand img{
+        height: inherit;
+        width: 7rem;
+    }
+
     footer .row .icons{
         margin-top: 8vmin;
     }
